@@ -1,0 +1,28 @@
+<ion-view>
+  <ion-header-bar class="bar-energized">
+    <h1 class="title">Ionic Deep Link App1</h1>
+  </ion-header-bar>
+
+  <ion-content class="">
+
+      <div class="list">
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Token value</span>
+          <input type="text" ng-model="data.token" />
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Deep link</span>
+          <input type="text" ng-model="data.link" />
+        </label>
+      </div>
+
+      <a href="{{data.link}}" class="button button-energized button-block">
+        Open deep link
+      </a>
+
+      <button class="button button-energized button-block" ng-click="open(data.link)">
+        Open deep link btn
+      </button>
+
+  </ion-content>
+</ion-view>

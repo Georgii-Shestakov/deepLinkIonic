@@ -1,6 +1,6 @@
 {
-  "name": "My Ionic App",
-  "short_name": "My Ionic App",
+  "name": "Deep Link Opener for Ionic",
+  "short_name": "Deep Link Ionic",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
